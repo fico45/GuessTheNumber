@@ -13,9 +13,7 @@ import org.json.XMLParserConfiguration;
 public class WeatherCheck {
 
     public static void weatherCheck() throws IOException {
-        //API example
-        //api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-        //API key:  fda67d535995262be873f7271e1e7cee
+
         System.out.println("Welcome to the simple weather check application!\nEnter the city name to start.");
 
         Scanner in = new Scanner(System.in);
